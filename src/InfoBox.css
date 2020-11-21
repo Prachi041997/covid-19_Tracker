@@ -1,0 +1,59 @@
+.infoBoxcases,.infoBoxrecovered, .infoBoxdeath {
+  flex: 1;
+  background-color: #161625 !important;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+.infoBoxcases:hover{
+  background-color: #b9542c59!important;
+}
+.infoBoxrecovered:hover{
+  background-color: #5fd87c5b!important;
+}
+.infoBoxdeath:hover{
+  background-color: #6c757d5d!important;
+}
+.typocases, .typoDatacases, .typoTotalcases{
+  color: #D10A35;
+}
+.typorecovered, .typoDatarecovered, .typoTotalrecovered{
+  color:#36bd55
+}
+.typodeath, .typoDatadeath, .typoTotaldeath{
+  color: #6C757D;
+}
+.typototalMargin{
+  margin-top: 9px !important;
+}
+.infoBox:not(:last-child) {
+  margin-right: 10px;
+}
+
+.infoBox--selected {
+  /* border-top: 10px solid greenyellow; */
+  background-color: #cc1032a9;
+}
+
+.infoBox--red {
+  /* border-color: red; */
+  background-color: #cc1032a9;
+
+}
+
+.infoBox__cases--green {
+  color: lightgreen !important;
+}
+
+.infoBox__cases {
+  color: #D10A35;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
